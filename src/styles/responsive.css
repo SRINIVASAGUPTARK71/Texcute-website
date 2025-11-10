@@ -1,0 +1,340 @@
+@media screen and (max-width: 768px) {
+  /* Typography */
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  /* Navbar */
+  nav {
+    padding: 1rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: #0f172a;
+    flex-direction: column;
+    gap: 0;
+    padding: 1rem 2rem;
+    border-top: 1px solid #1e3a8a;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-link {
+    padding: 1rem 0;
+    border-bottom: 1px solid #1e3a8a;
+  }
+
+  .nav-mobile-menu {
+    display: block;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding: 4rem 1rem;
+    min-height: 350px;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  /* Sections */
+  .section {
+    padding: 3rem 1rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Cards Grid */
+  .card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  /* Contact Grid */
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .contact-form {
+    padding-right: 0;
+  }
+
+  .contact-info {
+    padding-left: 0;
+    border-top: 1px solid #ddd;
+    padding-top: 2rem;
+  }
+
+  /* Process Grid */
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .process-step {
+    padding: 1rem;
+  }
+
+  /* CTA Button */
+  .cta-button {
+    width: 100%;
+  }
+
+  /* Footer */
+  footer {
+    padding: 2rem 1rem;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  /* FAQ */
+  .faq-section {
+    max-width: 100%;
+  }
+}
+
+/* Mobile Devices (480px and below) */
+@media screen and (max-width: 480px) {
+  /* Typography */
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  /* Navbar */
+  nav {
+    padding: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding: 2rem 1rem;
+    min-height: 250px;
+  }
+
+  .hero-section h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .hero-section p {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Sections */
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Cards Grid */
+  .card-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.85rem;
+  }
+
+  /* Form */
+  .form-input,
+  .form-select,
+  .form-textarea {
+    padding: 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  /* CTA Button */
+  .cta-button {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  /* Process Grid */
+  .process-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .process-step {
+    padding: 1rem 0.5rem;
+  }
+
+  .process-step h3 {
+    font-size: 1rem;
+  }
+
+  .process-step p {
+    font-size: 0.8rem;
+  }
+
+  /* Contact Info */
+  .info-block h3 {
+    font-size: 1rem;
+  }
+
+  .info-block p {
+    font-size: 0.85rem;
+  }
+
+  /* Social Links */
+  .social-links {
+    gap: 0.5rem;
+  }
+
+  .social-link {
+    width: 35px;
+    height: 35px;
+  }
+
+  /* FAQ */
+  .faq-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .faq-item h4 {
+    font-size: 0.95rem;
+  }
+
+  .faq-item p {
+    font-size: 0.85rem;
+  }
+
+  /* Footer */
+  footer {
+    padding: 1.5rem 1rem;
+  }
+
+  footer h3 {
+    font-size: 1.2rem;
+  }
+
+  .footer-text {
+    font-size: 0.85rem;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .footer-link {
+    font-size: 0.8rem;
+  }
+
+  /* Utilities for Mobile */
+  .hide-mobile {
+    display: none;
+  }
+
+  .show-mobile {
+    display: block;
+  }
+}
+
+/* Large Screens (1200px and above) */
+@media screen and (min-width: 1200px) {
+  .section {
+    padding: 4rem 4rem;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .contact-grid {
+    gap: 4rem;
+  }
+}
+
+/* Print Styles */
+@media print {
+  nav,
+  .cta-button,
+  footer {
+    display: none;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  .section {
+    page-break-inside: avoid;
+  }
+
+  .card {
+    page-break-inside: avoid;
+  }
+}
